@@ -1,0 +1,43 @@
+@import url("https://api.fontshare.com/v2/css?f[]=chillax@600,500,300,700,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chillax", sans-serif, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #222;
+  color: whitesmoke;
+  overflow-x: hidden;
+}
+
+input {
+  background: #f5f5f5;
+  color: #222;
+  font-weight: 600;
+  outline-style: none;
+}
+
+.expand-icon {
+  width: 25px;
+  height: 25px;
+  color: white;
+  transition: ease;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 25px;
+  height: 25px;
+  color: red;
+  background-color: transparent;
+  cursor: pointer;
+}
